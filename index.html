@@ -17,17 +17,17 @@
         <form id="biodataForm">
             <div class="form-group">
                 <label for="nis"><i class="fas fa-id-card"></i> NIS</label>
-                <input type="text" id="nis" name="nis" placeholder="Masukkan NIS">
+                <input type="text" id="nis" name="nis" placeholder="Masukkan NIS" required>
             </div>
             
             <div class="form-group">
                 <label for="nama"><i class="fas fa-user"></i> Nama Lengkap</label>
-                <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap">
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
             </div>
             
             <div class="form-group">
                 <label for="kelas"><i class="fas fa-school"></i> Kelas</label>
-                <select id="kelas" name="kelas">
+                <select id="kelas" name="kelas" required>
                     <option value="">Pilih Kelas</option>
                     <option value="X">X</option>
                     <option value="XI">XI</option>
@@ -39,27 +39,27 @@
                 <label><i class="fas fa-book-open"></i> Jurusan</label>
                 <div class="radio-group">
                     <div class="radio-option">
-                        <input type="radio" id="rpl" name="jurusan" value="Rekayasa Perangkat Lunak">
+                        <input type="radio" id="rpl" name="jurusan" value="Rekayasa Perangkat Lunak" required>
                         <label for="rpl">Rekayasa Perangkat Lunak</label>
                     </div>
                     <div class="radio-option">
-                        <input type="radio" id="kuliner" name="jurusan" value="Kuliner">
+                        <input type="radio" id="kuliner" name="jurusan" value="Kuliner" required>
                         <label for="kuliner">Kuliner</label>
                     </div>
                     <div class="radio-option">
-                        <input type="radio" id="titl" name="jurusan" value="Teknik Instalasi Listrik">
+                        <input type="radio" id="titl" name="jurusan" value="Teknik Instalasi Listrik" required>
                         <label for="titl">Teknik Instalasi Listrik</label>
                     </div>
                     <div class="radio-option">
-                        <input type="radio" id="dpb" name="jurusan" value="Desain Produk Busana">
+                        <input type="radio" id="dpb" name="jurusan" value="Desain Produk Busana" required>
                         <label for="dpb">Desain Produk Busana</label>
                     </div>
                     <div class="radio-option">
-                        <input type="radio" id="tpm" name="jurusan" value="Teknik Pemesinan">
+                        <input type="radio" id="tpm" name="jurusan" value="Teknik Pemesinan" required>
                         <label for="tpm">Teknik Pemesinan</label>
                     </div>
                     <div class="radio-option">
-                        <input type="radio" id="toi" name="jurusan" value="Teknik Otomasi Industri">
+                        <input type="radio" id="toi" name="jurusan" value="Teknik Otomasi Industri" required>
                         <label for="toi">Teknik Otomasi Industri</label>
                     </div>
                 </div>
@@ -67,18 +67,18 @@
             
             <div class="form-group">
                 <label for="tanggal_lahir"><i class="fas fa-calendar-alt"></i> Tanggal Lahir</label>
-                <input type="date" id="tanggal_lahir" name="tanggal_lahir">
+                <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
             </div>
             
             <div class="form-group">
                 <label>Jenis Kelamin</label>
                 <div class="radio-group">
                     <div class="radio-option">
-                        <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki">
+                        <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki" required>
                         <label for="laki-laki">Laki-laki</label>
                     </div>
                     <div class="radio-option">
-                        <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+                        <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan" required>
                         <label for="perempuan">Perempuan</label>
                     </div>
                 </div>
