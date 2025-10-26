@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Biodata Diri</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-circle-user"></i> FORM BIODATA DIRI</h1>
+            <p>Isi data diri Anda dengan lengkap dan benar</p>
+        </div>
+        
+        <form id="biodataForm">
+            <div class="form-group">
+                <label for="nis"><i class="fas fa-id-card"></i> NIS</label>
+                <input type="text" id="nis" name="nis" placeholder="Masukkan NIS">
+            </div>
+            
+            <div class="form-group">
+                <label for="nama"><i class="fas fa-user"></i> Nama Lengkap</label>
+                <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap">
+            </div>
+            
+            <div class="form-group">
+                <label for="kelas"><i class="fas fa-school"></i> Kelas</label>
+                <input type="text" id="kelas" name="kelas" placeholder="Masukkan kelas">
+            </div>
+            
+            <div class="form-group">
+                <label><i class="fas fa-book-open"></i> Jurusan</label>
+                <div class="radio-group">
+                    <div class="radio-option">
+                        <input type="radio" id="rpl" name="jurusan" value="Rekayasa Perangkat Lunak">
+                        <label for="rpl">Rekayasa Perangkat Lunak</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="kuliner" name="jurusan" value="Kuliner">
+                        <label for="kuliner">Kuliner</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="titl" name="jurusan" value="Teknik Instalasi Listrik">
+                        <label for="titl">Teknik Instalasi Listrik</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="dpb" name="jurusan" value="Desain Produk Busana">
+                        <label for="dpb">Desain Produk Busana</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="tpm" name="jurusan" value="Teknik Pemesinan">
+                        <label for="tpm">Teknik Pemesinan</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="toi" name="jurusan" value="Teknik Otomasi Industri">
+                        <label for="toi">Teknik Otomasi Industri</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="tanggal_lahir"><i class="fas fa-calendar-alt"></i> Tanggal Lahir</label>
+                <input type="date" id="tanggal_lahir" name="tanggal_lahir">
+            </div>
+            
+            <div class="form-group">
+                <label>Jenis Kelamin</label>
+                <div class="radio-group">
+                    <div class="radio-option">
+                        <input type="radio" id="laki-laki" name="jenis_kelamin" value="laki-laki">
+                        <label for="laki-laki">Laki-laki</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="perempuan" name="jenis_kelamin" value="perempuan">
+                        <label for="perempuan">Perempuan</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="alamat"><i class="fas fa-home"></i> Alamat</label>
+                <textarea id="alamat" name="alamat" placeholder="Masukkan alamat lengkap"></textarea>
+            </div>
+            
+            <div class="button-group">
+                <button type="reset" class="reset-btn">
+                    <span class="icon">↺</span> Reset
+                </button>
+                <button type="submit" class="submit-btn">
+                    <span class="icon">✓</span> Submit
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
